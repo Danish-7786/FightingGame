@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+
+  
+    <div class="wrapper">
+
+        <div class="player1div">
+            <div id="p1Name">Player 1</div>
+            <img
+            class="heroImg"
+            id="p1"
+            src="https://i.gifer.com/origin/00/0019f6845ceaa9347b881ccbe8f5644a_w200.gif"
+            alt=""
+            />
+            <div class="playersControl">
+                <div class="attack">
+
+                    <h3>Q:</h3>
+                    <button class="attackBtn">Attack</button>
+                </div>
+                <div class="heal">
+
+                    <h3>A:</h3>
+                    <button class="healBtn">Heal</button>
+                </div>
+                <div class="health-info"><h1>100</h1></div>
+                
+            </div>
+        </div>
+        <div class="simulate"><button class="sim">Simulate</button></div>
+
+        <div class="player2div">
+            <div id="p2Name">Player 1</div>
+            <IMG
+            class="heroImg"
+            ID="P2"
+            SRC="./Z0QCi47.gif"
+            
+            ALT="P2"
+            />
+            <div class="playersControl">
+                <div class="attack">
+
+                    <h3>P:</h3>
+                    <button class="attackBtn">Attack</button>
+                </div>
+                <div class="heal">
+
+                    <h3>L:</h3>
+                    <button class="healBtn">Heal</button>
+                </div>
+                <div class="heath-info"> <h1>100</h1></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="reset">
+        <button class="resetBtn">Reset</button>
+    </div>
+</div>
+<audio id="p1attack" controls style="display:none">
+    <source src="./sounds/fastpunch.mp3" type="audio/mpeg"> 
+  </audio>
+  <audio id="p1heal" controls style="display:none">
+    <source src="./sounds/fastheal.mp3" type="audio/mpeg"> 
+  </audio>
+  <audio id="p2attack" controls style="display:none">
+    <source src="./sounds/quickhit.mp3" type="audio/mpeg"> 
+  </audio>
+  <audio id="p2heal" controls style="display:none">
+    <source src="./sounds/quickheal.mp3" type="audio/mpeg"> 
+  </audio>
+  <audio id="victory" controls style="display:none">
+    <source src="./sounds/victory.mp3" type="audio/mpeg"> 
+  </audio>
+  
+    </body>
+    <script src="./app.js"></script>
+    </html>

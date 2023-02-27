@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+   width: 80vw;
+   justify-content: space-around;
+   padding: 2rem;
+}
+
+.heroImg{
+    width: 10rem;
+}
+.attackBtn{
+    border: none;
+    padding:0 0.5rem;
+    height: 1.5rem;
+    width: 4rem;
+    color: #fff;
+    align-self: center;
+    border-radius: 10px;
+    background-color: rgb(255, 46, 46);
+}
+.heal{
+    display: flex;
+    gap: 1rem;
+}
+.healBtn{
+    border: none;
+    padding: 0 0.5rem;
+    height: 1.5rem;
+    width: 4rem;
+    align-self: center;
+    border-radius: 10px;
+    color: #fff;
+    background-color: greenyellow;
+}
+.attack{
+    display: flex;
+    gap: 1rem;
+}
+.playersControl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.attack >h3,.heal>h3{
+  align-self: center;
+}
+.simulate{
+    display: flex;
+    align-items: center;
+}
+.sim{
+    padding: 0.8rem 1.7rem;
+    /* align-self: center; */
+    color: #fff;
+    background: #ff2eff;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.resetBtn{
+    align-self: end;
+    padding: 0.8rem 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background: #2eff34;
+    border:none;
+    color: #fff;
+    border-radius: 5px;
+}
