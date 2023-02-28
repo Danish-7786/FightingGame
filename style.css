@@ -62,7 +62,7 @@
     display: flex;
     align-items: center;
 }
-.sim{
+#sim{
     padding: 0.8rem 1.7rem;
     /* align-self: center; */
     color: #fff;
@@ -80,4 +80,7 @@
     border:none;
     color: #fff;
     border-radius: 5px;
+}
+#result{
+    height: 4rem;
 }

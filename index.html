@@ -14,7 +14,7 @@
     <div class="wrapper">
 
         <div class="player1div">
-            <div id="p1Name">Player 1</div>
+            <div id="p1Name"><h1 contenteditable="true">Player 1</h1></div>
             <img
             class="heroImg"
             id="p1"
@@ -25,21 +25,23 @@
                 <div class="attack">
 
                     <h3>Q:</h3>
-                    <button class="attackBtn">Attack</button>
+                    <button class="attackBtn"
+                    onclick="p1Attack()">Attack</button>
                 </div>
                 <div class="heal">
 
                     <h3>A:</h3>
-                    <button class="healBtn">Heal</button>
+                    <button class="healBtn"
+                    onclick="p1Heal()">Heal</button>
                 </div>
-                <div class="health-info"><h1>100</h1></div>
+                <div id="p1Health"><h1>100</h1></div>
                 
             </div>
         </div>
-        <div class="simulate"><button class="sim">Simulate</button></div>
+        <div class="simulate"><button id="sim">Simulate</button></div>
 
         <div class="player2div">
-            <div id="p2Name">Player 1</div>
+            <div id="p2Name"><h1 contenteditable="true">Player 2</h1></div>
             <IMG
             class="heroImg"
             ID="P2"
@@ -51,18 +53,23 @@
                 <div class="attack">
 
                     <h3>P:</h3>
-                    <button class="attackBtn">Attack</button>
+                    <button class="attackBtn"
+                    id="p2Attack"
+                    onclick="p2Attack()"
+                    >Attack</button>
                 </div>
                 <div class="heal">
 
                     <h3>L:</h3>
-                    <button class="healBtn">Heal</button>
+                    <button class="healBtn"
+                    onclick="p2Heal()">Heal</button>
                 </div>
-                <div class="heath-info"> <h1>100</h1></div>
+                <div id="p2Health"> <h1>100</h1></div>
             </div>
         </div>
 
     </div>
+    <div id="result"></div>
     <div class="reset">
         <button class="resetBtn">Reset</button>
     </div>
